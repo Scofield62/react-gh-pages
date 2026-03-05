@@ -1,0 +1,16 @@
+[13:34:01.379] [INFO] storybook v10.2.13
+[13:34:02.011] [DEBUG] Getting package.json info for /Users/asomodi/Documents/Developments/NodeJS/carbon-react/react-with-carbon/package.json...
+[13:34:02.604] [ERROR] [38;2;241;97;97mError: Cannot find module @rollup/rollup-darwin-arm64. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.[39m
+    at requireWithFriendlyError (./node_modules/rollup/dist/native.js:115:9)
+    at Object.<anonymous> (./node_modules/rollup/dist/native.js:124:76)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at cjsLoader (node:internal/modules/esm/translators:309:5)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:202:7)
+[13:34:02.610] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.
+[13:34:05.871] [PROMPT] Would you like to send anonymous crash reports to improve Storybook and fix bugs faster? {"choice":false}
